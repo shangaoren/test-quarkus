@@ -1,0 +1,9 @@
+version: '3'
+services:
+  database:
+    image: postgres:13
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: code-with-quarkus
+      POSTGRES_PASSWORD: code-with-quarkus
